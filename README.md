@@ -21,8 +21,9 @@ chmod +x 1password
 
 if you do not have 1Password.html at the default location
 $(HOME)/Dropbox/1Password.agilekeychain/
-you can set
+you can set an env variable with the directory that contains your 1Password.html
 
-<pre><code>run the server
->export ONEPASSWORD_DIR="your directory that holds the dropbox 1password.html"
+<pre><code>
+>export ONEPASSWORD_DIR="your directory that holds the dropbox 1Password.html"
+>1password
 </code></pre>
