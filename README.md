@@ -3,15 +3,17 @@
 You have 1Password, and sync it with Dropbox.
 <br>Get the stupid simple go server for 1Password anywhere
 
-Download it for any linux distro as binary from [here](https:///github.com/tbaehler/1password/raw/master/binary/1password) (any linux distro).
+Download it for any linux distro as binary from [here](https:///github.com/tbaehler/1password/raw/master/binary/1password).
 
-#####installation
+Or install it from GO source
+
+#####installation from GO source
 <pre><code>go get github.com/tbaehler/1password
 #start it from your GOPATH/bin
 1password
 </code></pre>
 
-dont have go installed ?  donload the binary anmake sure it has execute permissions
+#####installation as binary
 <pre><code>run the server
 chmod +x 1password
 >./1password
